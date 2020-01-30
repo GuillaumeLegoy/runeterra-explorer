@@ -9,6 +9,8 @@ setuptools = "*"
 pipenv-setup = "*"
 
 [packages]
+pathlib = "*"
+gitpython = "*"
 
 [requires]
 python_version = "3"
