@@ -11,6 +11,9 @@ pipenv-setup = "*"
 [packages]
 pathlib = "*"
 gitpython = "*"
+pandas = "*"
+src = {editable = true,path = "."}
+dbt = "*"
 
 [requires]
 python_version = "3"
