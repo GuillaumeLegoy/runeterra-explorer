@@ -23,4 +23,4 @@ class ProjectPaths:
     root: Path = field(default_factory=get_repository_root_path)
     cards: Path = field(default_factory=get_cards_path)
     globals: Path = field(default_factory=get_global_path)
-    dbt_seeds: Path = field(default_factory=get_global_path)
+    dbt_seeds: Path = field(default_factory=get_dbt_seeds_path)

@@ -1,0 +1,421 @@
+,region,name,cost,attack,health
+0,Ionia,Discipline of Fortitude,3,0,0
+1,Noxus,Draven,3,4,4
+2,Demacia,Dawnspeakers,3,1,4
+3,Ionia,Yusari the Slayer,3,3,2
+4,PiltoverZaun,Jinx's Get Excited!,3,0,0
+5,Freljord,Glacial Storm,0,0,0
+6,PiltoverZaun,Teemo,1,2,2
+7,Demacia,Lucian,2,3,2
+8,Ionia,Yasuo,4,5,4
+9,PiltoverZaun,Heimerdinger,5,1,3
+10,Ionia,Keeper of Masks,2,2,3
+11,Freljord,Tryndamere's Battle Fury,8,0,0
+12,PiltoverZaun,Augmented Experimenter,6,3,3
+13,Demacia,Mobilize,3,0,0
+14,Noxus,Culling Strike,3,0,0
+15,PiltoverZaun,Parade Electrorig,3,3,3
+16,PiltoverZaun,Heimerdinger,5,2,4
+17,ShadowIsles,Phantom Prankster,3,0,3
+18,Demacia,Lux's Prismatic Barrier,3,0,0
+19,PiltoverZaun,Academy Prodigy,2,3,1
+20,Ionia,Herald of Spring,2,2,2
+21,Ionia,Fae Bladetwirler,2,1,3
+22,Noxus,Crimson Curator,3,3,2
+23,Freljord,Iceborn Legacy,3,0,0
+24,Ionia,Ghost,1,0,0
+25,Freljord,Omen Hawk,1,1,1
+26,Freljord,Harsh Winds,6,0,0
+27,ShadowIsles,Glimpse Beyond,2,0,0
+28,ShadowIsles,Elise's Crawling Sensation,1,0,0
+29,Freljord,Braum,3,0,5
+30,ShadowIsles,Ancient Crocolith,4,7,7
+31,Demacia,Swiftwing Lancer,5,5,4
+32,ShadowIsles,Soul Shepherd,2,2,3
+33,PiltoverZaun,Eager Apprentice,2,2,1
+34,Noxus,Darius,6,6,5
+35,Ionia,Kinkou Lifeblade,4,2,3
+36,Freljord,Rimefang Wolf,3,3,2
+37,Demacia,Vanguard Defender,2,2,2
+38,Demacia,Battlesmith,2,2,2
+39,Demacia,Tianna Crownguard,8,7,7
+40,Noxus,Arachnoid Host,5,5,3
+41,Ionia,Karma,5,5,4
+42,Demacia,Garen,5,6,6
+43,Demacia,Stand Alone,3,0,0
+44,PiltoverZaun,Jinx,4,4,3
+45,Noxus,Decisive Maneuver,5,0,0
+46,Demacia,Fiora,3,3,3
+47,PiltoverZaun,Puffcap Peddler,3,3,3
+48,Demacia,Brightsteel Formation,9,9,9
+49,PiltoverZaun,Super Mega Death Rocket!,2,0,0
+50,ShadowIsles,Elise,2,2,3
+51,Demacia,Relentless Pursuit,3,0,0
+52,PiltoverZaun,Magnum Opus,0,0,0
+53,Noxus,Paralyzing Bite,0,0,0
+54,Noxus,Transfusion,2,0,0
+55,ShadowIsles,Onslaught of Shadows,3,0,0
+56,Noxus,Legion Saboteur,1,2,1
+57,ShadowIsles,Hecarim,6,5,7
+58,PiltoverZaun,Scrap Scuttler,1,1,1
+59,Ionia,Zed,3,4,3
+60,ShadowIsles,Vilemaw,3,6,6
+61,Ionia,Greenglade Elder,3,1,1
+62,Noxus,Darius,6,10,5
+63,Demacia,Lucian's Relentless Pursuit,3,0,0
+64,PiltoverZaun,Jury-Rig,1,0,0
+65,Demacia,Detain,5,0,0
+66,Freljord,Avarosan Marksman,3,3,1
+67,Ionia,Nimble Poro,1,1,1
+68,Freljord,Scarthane Steffen,3,2,4
+69,Ionia,Navori Conspirator,2,3,2
+70,Freljord,Jubilant Poro,1,1,1
+71,Freljord,Shatter,2,0,0
+72,Freljord,Crystal Arrow,2,0,0
+73,Noxus,Arachnoid Sentry,3,3,2
+74,PiltoverZaun,Rising Spell Force,3,0,0
+75,PiltoverZaun,Mk3: Floor-B-Gone,3,3,1
+76,Ionia,Jeweled Protector,5,3,3
+77,ShadowIsles,Cursed Keeper,2,1,1
+78,PiltoverZaun,Undermine,0,0,0
+79,PiltoverZaun,Impersonate,0,0,0
+80,Noxus,Brothers' Bond,2,0,0
+81,Noxus,House Spider,2,2,2
+82,Demacia,Judgment,8,0,0
+83,PiltoverZaun,Used Cask Salesman,3,2,2
+84,PiltoverZaun,Sump Dredger,2,4,3
+85,PiltoverZaun,Mk2: Evolution Turret,2,2,1
+86,ShadowIsles,Scribe of Sorrows,3,2,3
+87,PiltoverZaun,Teemo's Mushroom Cloud,1,0,0
+88,ShadowIsles,Kalista,3,5,3
+89,Freljord,Entreat,2,0,0
+90,ShadowIsles,Night Harvest,0,0,0
+91,ShadowIsles,Kalista,3,4,2
+92,Ionia,Sown Seeds,2,0,0
+93,PiltoverZaun,Ezreal,3,2,4
+94,Freljord,Unscarred Reaver,1,0,3
+95,Ionia,Death Mark,3,0,0
+96,PiltoverZaun,Jae Medarda,8,6,6
+97,PiltoverZaun,Shady Character,4,1,1
+98,Ionia,Shadow Flare,6,0,0
+99,PiltoverZaun,Corina Veraza,9,6,6
+100,Freljord,Catalyst of Aeons,4,0,0
+101,Noxus,Draven's Whirling Death,3,0,0
+102,Noxus,Crimson Disciple,2,2,3
+103,Freljord,Enraged Yeti,1,5,5
+104,PiltoverZaun,Mushroom Cloud,1,0,0
+105,Noxus,Arena Battlecaster,2,2,1
+106,PiltoverZaun,Zaunite Urchin,1,2,1
+107,Ionia,Inspiring Mentor,1,1,1
+108,PiltoverZaun,Reckless Research,0,0,0
+109,PiltoverZaun,Back Alley Barkeep,4,2,2
+110,ShadowIsles,Spiderling,1,1,1
+111,ShadowIsles,Scuttlegeist,10,5,5
+112,Freljord,Ashe,4,5,3
+113,Demacia,Laurent Duelist,3,3,2
+114,PiltoverZaun,Trueshot Barrage,7,0,0
+115,Demacia,Mageseeker Inciter,4,1,4
+116,Ionia,Dawn and Dusk,6,0,0
+117,ShadowIsles,Spider Queen Elise,2,4,3
+118,Demacia,Vanguard Bannerman,4,3,3
+119,PiltoverZaun,Daring Poro,1,1,1
+120,Noxus,Legion Marauder,3,3,2
+121,Freljord,Avalanche,4,0,0
+122,PiltoverZaun,Counterfeit Copies,1,0,0
+123,Ionia,Scaled Snapper,3,2,2
+124,Freljord,Yeti Yearling,1,1,2
+125,ShadowIsles,Sinister Poro,1,1,1
+126,Noxus,Crowd Favorite,4,2,2
+127,Ionia,Shadow Assassin,3,2,2
+128,Ionia,Scaled Snapper,3,5,2
+129,PiltoverZaun,Boomcrew Rookie,2,0,4
+130,Noxus,Draven,3,3,3
+131,PiltoverZaun,Mystic Shot,2,0,0
+132,Freljord,Anivia's Harsh Winds,6,0,0
+133,Demacia,War Chefs,2,2,3
+134,PiltoverZaun,Ezreal,3,1,3
+135,Ionia,Scaled Snapper,3,2,5
+136,ShadowIsles,Escaped Abomination,2,4,4
+137,PiltoverZaun,T-Hex,8,8,8
+138,Noxus,Reckoning,6,0,0
+139,PiltoverZaun,Hextech Transmogulator,6,0,0
+140,Noxus,Darius's Decimate,5,0,0
+141,ShadowIsles,Thresh,5,3,6
+142,Demacia,Lucian,2,4,3
+143,Demacia,Plucky Poro,1,1,1
+144,Demacia,Garen's Judgment,8,0,0
+145,ShadowIsles,Commander Ledros,8,8,6
+146,PiltoverZaun,Midenstokke Henchmen,5,5,3
+147,ShadowIsles,The Harrowing,10,0,0
+148,ShadowIsles,The Undying,3,2,2
+149,Noxus,Sabotage,0,0,0
+150,Freljord,Stalking Wolf,2,3,2
+151,Ionia,Shen,4,3,6
+152,Demacia,Laurent Chevalier,4,3,1
+153,ShadowIsles,Absorb Soul,1,0,0
+154,Freljord,Avarosan Outriders,4,3,3
+155,ShadowIsles,Crawling Sensation,1,0,0
+156,Freljord,Braum,3,0,7
+157,Ionia,Shadow Fiend,1,4,3
+158,PiltoverZaun,Statikk Shock,4,0,0
+159,ShadowIsles,Spectral Rider,2,3,2
+160,ShadowIsles,Tortured Prodigy,5,3,4
+161,Freljord,Alpha Wildclaw,6,7,6
+162,Noxus,Intimidating Roar,5,0,0
+163,Noxus,Crimson Pact,0,0,0
+164,PiltoverZaun,Golden Crushbot,3,2,5
+165,Noxus,Legion Veteran,4,4,5
+166,Freljord,Brittle Steel,1,0,0
+167,Noxus,Shiraza the Blade,4,3,3
+168,ShadowIsles,Oblivious Islander,1,2,1
+169,ShadowIsles,Thresh's The Box,4,0,0
+170,PiltoverZaun,Rummage,1,0,0
+171,Noxus,Katarina,4,4,3
+172,Freljord,Scarmother Vrynna,6,3,8
+173,PiltoverZaun,Scrapdash Assembly,2,0,0
+174,ShadowIsles,Iron Harbinger,3,2,4
+175,ShadowIsles,Black Spear,2,0,0
+176,ShadowIsles,Hapless Aristocrat,1,1,1
+177,Ionia,Rush,1,0,0
+178,PiltoverZaun,Heimerdinger's Progress Day!,8,0,0
+179,Freljord,Winter's Breath,7,0,0
+180,Demacia,Remembrance,6,0,0
+181,ShadowIsles,Stirred Spirits,2,3,2
+182,PiltoverZaun,Thermogenic Beam,0,0,0
+183,Demacia,Fiora,3,4,4
+184,Freljord,Avarosan Hearthguard,5,5,6
+185,Noxus,Captain Farron,8,8,8
+186,Freljord,Poro Herder,4,3,4
+187,Demacia,Lux,6,4,5
+188,Noxus,Legion Rearguard,1,3,2
+189,Demacia,Mageseeker Conservator,1,1,1
+190,ShadowIsles,Unleashed Spirit,1,1,1
+191,Demacia,Border Lookout,2,1,4
+192,Demacia,Vanguard Firstblade,4,2,2
+193,Noxus,Blade's Edge,1,0,0
+194,Demacia,Silverwing Scout,4,2,3
+195,Ionia,Staggering Strikes,0,0,0
+196,ShadowIsles,Kalista's Black Spear,2,0,0
+197,Noxus,Legion Grenadier,2,3,1
+198,Noxus,Decimate,5,0,0
+199,Ionia,Zephyr Sage,6,4,4
+200,ShadowIsles,Frenzied Skitterer,3,3,3
+201,Noxus,Legion General,5,4,4
+202,Noxus,Legion Drummer,2,3,2
+203,Demacia,Silverwing Vanguard,4,2,1
+204,ShadowIsles,Vengeance,7,0,0
+205,Demacia,Laurent Protege,3,2,4
+206,Ionia,Greenglade Lookout,2,2,1
+207,PiltoverZaun,Astute Academic,1,1,2
+208,PiltoverZaun,Teemo,1,1,1
+209,PiltoverZaun,Mk5: Rocket Blaster,5,5,1
+210,PiltoverZaun,Unlicensed Innovation,6,0,0
+211,Demacia,Succession,3,0,0
+212,Noxus,Arena Bookie,3,2,1
+213,Noxus,Whirling Death,3,0,0
+214,Freljord,Scarmaiden Reaver,5,4,5
+215,Demacia,Purify,2,0,0
+216,Freljord,Tarkaz's Fury,0,0,0
+217,Freljord,Heart of the Fluft,6,4,4
+218,Freljord,Snow Hare,1,1,1
+219,Freljord,Wyrding Stones,3,0,4
+220,ShadowIsles,The Box,4,0,0
+221,Demacia,Final Spark,0,0,0
+222,Ionia,Minah Swiftfoot,9,6,5
+223,Noxus,Vision,3,0,0
+224,Freljord,Icevale Archer,2,3,1
+225,PiltoverZaun,Sumpsnipe Scavenger,4,4,2
+226,Freljord,Elixir of Iron,1,0,0
+227,Freljord,Kindly Tavernkeeper,3,2,3
+228,PiltoverZaun,Illegal Contraption,6,5,5
+229,Noxus,Trifarian Shieldbreaker,5,6,5
+230,Freljord,Tryndamere,8,9,9
+231,Freljord,Ashe,4,6,4
+232,PiltoverZaun,Accelerated Purrsuit,5,0,0
+233,Ionia,Yasuo,4,4,3
+234,Ionia,Ritual of Renewal,7,0,0
+235,Demacia,Dauntless Vanguard,3,3,3
+236,Ionia,Stand United,6,0,0
+237,Ionia,Twin Disciplines,3,0,0
+238,Freljord,Balesight,0,0,0
+239,Demacia,Mageseeker Persuader,6,4,1
+240,Noxus,Minotaur Reckoner,6,6,6
+241,Noxus,Battering Ram,6,0,12
+242,Demacia,Vanguard Squire,4,3,3
+243,ShadowIsles,Ravenous Butcher,0,3,2
+244,Ionia,Zed's Shadowshift,3,0,0
+245,ShadowIsles,Hecarim's Onslaught of Shadows,3,0,0
+246,Demacia,Riposte,4,0,0
+247,PiltoverZaun,Mk7: Armored Stomper,7,7,1
+248,ShadowIsles,Fresh Offerings,3,0,0
+249,PiltoverZaun,Assembly Bot,3,1,1
+250,Ionia,Windfarer Hatchling,7,4,2
+251,Freljord,Poro Snax,4,0,0
+252,Noxus,Crimson Aristocrat,2,2,2
+253,PiltoverZaun,Jinx,4,5,4
+254,Freljord,Battle Fury,8,0,0
+255,Demacia,Reinforcements,8,0,0
+256,Demacia,Chain Vest,1,0,0
+257,Ionia,Zed,3,3,2
+258,Noxus,Katarina's Death Lotus,2,0,0
+259,Noxus,Trifarian Hopeful,2,3,2
+260,Freljord,Braum's Take Heart,3,0,0
+261,ShadowIsles,Mistwraith,2,2,2
+262,Noxus,Elixir of Wrath,1,0,0
+263,Ionia,Silent Shadowseer,2,3,1
+264,ShadowIsles,Haunted Relic,2,0,0
+265,ShadowIsles,Mark of the Isles,1,0,0
+266,Ionia,Shen,4,2,5
+267,Noxus,Precious Pet,1,2,1
+268,ShadowIsles,Grasp of the Undying,5,0,0
+269,PiltoverZaun,Chempunk Shredder,5,4,2
+270,Freljord,Lonely Poro,1,1,1
+271,Ionia,Karma,5,4,3
+272,ShadowIsles,Possession,5,0,0
+273,Demacia,Radiant Guardian,5,5,5
+274,PiltoverZaun,Eminent Benefactor,4,3,3
+275,Noxus,Death Lotus,2,0,0
+276,PiltoverZaun,Mk0: Windup Shredder,0,0,1
+277,Ionia,Cloud Drinker,6,3,7
+278,Demacia,Laurent Bladekeeper,4,2,3
+279,Freljord,Warmother's Call,12,0,0
+280,PiltoverZaun,Purrsuit of Perfection,5,0,0
+281,ShadowIsles,Blade of Ledros,0,0,0
+282,PiltoverZaun,Funsmith,5,2,3
+283,ShadowIsles,Splinter Soul,3,0,0
+284,ShadowIsles,Atrocity,6,0,0
+285,Ionia,Yasuo's Steel Tempest,3,0,0
+286,Ionia,Recall,1,0,0
+287,Ionia,Living Shadow,3,3,2
+288,Ionia,Will of Ionia,4,0,0
+289,Ionia,Fatal Strike,0,0,0
+290,Freljord,Feral Mystic,2,2,2
+291,Ionia,Skyward Strikes,0,0,0
+292,Ionia,Navori Bladescout,1,2,1
+293,Freljord,Icy Yeti,7,5,5
+294,Noxus,Shunpo,5,0,0
+295,PiltoverZaun,Poison Puffcap,0,0,0
+296,PiltoverZaun,Face-Melter,0,0,0
+297,ShadowIsles,Mist's Call,3,0,0
+298,PiltoverZaun,Cataclysm,1,30,30
+299,Noxus,Trifarian Assessor,4,4,3
+300,Demacia,Prismatic Barrier,3,0,0
+301,Noxus,Vladimir,5,6,6
+302,PiltoverZaun,Professor von Yipp,4,2,3
+303,PiltoverZaun,Mk1: Wrenchbot,1,1,1
+304,Freljord,Tryndamere,8,8,4
+305,Freljord,Bull Elnuk,4,4,5
+306,ShadowIsles,Brood Awakening,6,0,0
+307,Freljord,Pack Mentality,7,0,0
+308,PiltoverZaun,Unstable Voltician,5,4,4
+309,ShadowIsles,Wraithcaller,4,4,2
+310,Ionia,Sparring Student,1,1,1
+311,Freljord,Ashe's Flash Freeze,3,0,0
+312,Freljord,Tarkaz the Tribeless,5,5,8
+313,Ionia,Greenglade Duo,2,2,1
+314,Noxus,Blood for Blood,3,0,0
+315,Ionia,Kinkou Wayfinder,4,2,3
+316,Demacia,Single Combat,2,0,0
+317,Noxus,Katarina,3,3,2
+318,ShadowIsles,Shark Chariot,2,3,1
+319,Freljord,Avarosan Trapper,3,2,2
+320,PiltoverZaun,Progress Day!,8,0,0
+321,Ionia,Yusari,5,4,3
+322,Freljord,Troop of Elnuks,5,3,3
+323,Ionia,Health Potion,1,0,0
+324,ShadowIsles,Chronicler of Ruin,4,3,3
+325,PiltoverZaun,Plaza Guardian,10,5,5
+326,Ionia,Ren Shadowblade,8,6,4
+327,Freljord,Anivia,6,5,4
+328,ShadowIsles,Ethereal Remitter,5,4,3
+329,PiltoverZaun,Clump of Whumps,2,2,2
+330,Ionia,Emerald Awakener,3,2,2
+331,Freljord,Take Heart,3,0,0
+332,Noxus,Savage Reckoner,7,7,4
+333,Demacia,En Garde,3,0,0
+334,ShadowIsles,Spectral Matron,8,6,6
+335,Freljord,Rimetusk Shaman,5,3,3
+336,Ionia,Deny,3,0,0
+337,Noxus,Trifarian Gloryseeker,2,5,1
+338,PiltoverZaun,Flame Chompers!,2,0,1
+339,Freljord,Ancient Yeti,7,5,5
+340,Demacia,Vanguard Sergeant,3,3,3
+341,Freljord,Bullseye,0,0,0
+342,Freljord,Mighty Poro,3,3,3
+343,Ionia,Navori Brigand,2,1,2
+344,ShadowIsles,Arachnoid Horror,2,3,2
+345,PiltoverZaun,Get Excited!,3,0,0
+346,PiltoverZaun,Mk6: Stormlobber,6,6,1
+347,Demacia,"Senna, Sentinel of Light",3,4,2
+348,Freljord,Bloodsworn Pledge,4,0,0
+349,Ionia,Navori Highwayman,2,1,2
+350,Ionia,The Empyrean,7,6,5
+351,Demacia,Back to Back,5,0,0
+352,Noxus,Vladimir,5,5,5
+353,PiltoverZaun,Flash of Brilliance,3,0,0
+354,PiltoverZaun,Ezreal's Mystic Shot,2,0,0
+355,Demacia,For Demacia!,6,0,0
+356,Noxus,Basilisk Rider,4,5,2
+357,Ionia,Greenglade Caretaker,1,1,2
+358,Demacia,Radiant Strike,1,0,0
+359,Ionia,Insight of Ages,2,0,0
+360,ShadowIsles,The Rekindler,6,5,5
+361,Freljord,Flash Freeze,3,0,0
+362,PiltoverZaun,Chump Whump,4,4,4
+363,ShadowIsles,Hecarim,6,4,6
+364,Demacia,Brightsteel Protector,2,3,2
+365,ShadowIsles,Withering Wail,5,0,0
+366,PiltoverZaun,Amateur Aeronaut,3,2,3
+367,Ionia,Shen's Stand United,6,0,0
+368,ShadowIsles,Rhasa the Sunderer,7,7,5
+369,Freljord,Anivia,6,4,3
+370,Noxus,Affectionate Poro,1,1,1
+371,PiltoverZaun,Intrepid Mariner,2,1,3
+372,Demacia,Lux,6,3,4
+373,Demacia,Fiora's Riposte,4,0,0
+374,Noxus,Draven's Biggest Fan,1,2,1
+375,Freljord,Glacial Storm,0,0,0
+376,Noxus,Reckless Trifarian,3,5,4
+377,ShadowIsles,Darkwater Scourge,3,5,5
+378,Ionia,Steel Tempest,3,0,0
+379,Demacia,Cithria of Cloudfield,1,2,2
+380,Noxus,Vladimir's Transfusion,2,0,0
+381,Freljord,Fluft of Poros,5,4,4
+382,Demacia,Fleetfeather Tracker,1,2,1
+383,Ionia,Spirit's Refuge,4,0,0
+384,PiltoverZaun,Mk4: Apex Turret,4,4,1
+385,Freljord,Eggnivia,1,0,1
+386,PiltoverZaun,Sumpworks Map,2,0,0
+387,Noxus,Might,3,0,0
+388,Demacia,Vanguard Cavalry,5,5,5
+389,Ionia,Rivershaper,3,2,1
+390,PiltoverZaun,Chempunk Pickpocket,2,2,2
+391,Freljord,Starlit Seer,2,2,2
+392,Ionia,Solitary Monk,3,4,3
+393,Freljord,She Who Wanders,10,10,10
+394,Freljord,Tall Tales,3,0,0
+395,Noxus,Noxian Guillotine,3,0,0
+396,PiltoverZaun,Caustic Cask,0,0,1
+397,ShadowIsles,Warden's Prey,1,1,1
+398,Ionia,Discipline of Force,3,0,0
+399,Demacia,Vanguard Redeemer,3,3,3
+400,Ionia,Karma's Insight of Ages,2,0,0
+401,Ionia,Shadowshift,3,0,0
+402,Noxus,Crimson Awakener,4,5,5
+403,Demacia,Mageseeker Investigator,3,3,3
+404,Noxus,Kato The Arm,5,5,3
+405,ShadowIsles,Vile Feast,2,0,0
+406,Freljord,They Who Endure,6,1,1
+407,Demacia,Cithria the Bold,6,6,6
+408,Ionia,"Yone, Windchaser",7,6,6
+409,Ionia,Ki Guardian,2,0,0
+410,Demacia,Redoubled Valor,6,0,0
+411,ShadowIsles,The Ruination,9,0,0
+412,ShadowIsles,Thresh,5,4,7
+413,Noxus,Guile,1,0,0
+414,Freljord,Babbling Bjerg,4,3,3
+415,Demacia,Garen,5,5,5
+416,Noxus,Spinning Axe,0,0,0
+417,Freljord,Avarosan Sentry,2,2,1
+418,ShadowIsles,Soulgorger,6,3,7
+419,ShadowIsles,Fading Memories,0,0,0

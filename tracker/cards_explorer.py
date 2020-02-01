@@ -1,6 +1,7 @@
 from tracker.utils.path_util import ProjectPaths
 import json
 import pandas as pd
+import pathlib
 
 column_names = [
     'region',
@@ -25,5 +26,5 @@ with open(ProjectPaths().cards) as cards_file:
         ]
 
         cards_list.append(current_card)
-
-print(pd.DataFrame(cards_list, columns=column_names))
+#print(ProjectPaths().dbt_seeds)
+pd.DataFrame(cards_list, columns=column_names).to_csv(ProjectPaths().dbt_seeds.joinpath('cards.csv'))
