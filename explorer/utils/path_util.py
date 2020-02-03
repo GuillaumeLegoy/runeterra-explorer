@@ -15,7 +15,7 @@ def get_global_path()-> Path:
     return get_repository_root_path().joinpath('data/global/en_us/data/globals-en_us.json')
 
 def get_dbt_seeds_path()-> Path:
-    return get_repository_root_path().joinpath('tracker/dbt/data')
+    return get_repository_root_path().joinpath('explorer/dbt/data')
 
 
 @dataclass
