@@ -4,14 +4,14 @@ import pandas as pd
 import pathlib
 
 column_names = [
-    'card_code',
+    'code',
     'region',
-    'name',
+    'designation',
     'cost',
     'attack',
     'health',
     'rarity',
-    'type',
+    'main_type',
     'subtype',
     'supertype',
     'associated_cards',
