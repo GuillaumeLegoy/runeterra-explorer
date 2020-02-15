@@ -1,10 +1,4 @@
 version: 2
 
 seeds:
-  column_types:
-    region: varchar
-    name: varchar
-    cost: char(9)
-    attack: varchar
-    health: varchar
   name: cards

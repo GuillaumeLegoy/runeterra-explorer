@@ -16,4 +16,5 @@ setup:
 
 build_db:
 	pipenv run $(PYTHON_INTERPRETER) explorer/cards_explorer.py
+	cd explorer/dbt && pipenv run dbt seed --profiles-dir=. --full-refresh --target=profile_dev
 	cd explorer/dbt && pipenv run dbt run --profiles-dir=. --target=profile_dev
