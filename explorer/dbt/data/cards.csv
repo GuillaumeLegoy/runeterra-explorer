@@ -1,4 +1,4 @@
-code,region,designation,cost,attack,health,rarity,main_type,subtype,supertype,associated_cards,keywords,description,level_up_description
+code,region,card_name,cost,attack,health,rarity,main_type,subtype,supertype,associated_cards,keywords,description,level_up_description
 01IO012T2,Ionia,Discipline of Fortitude,3,0,0,None,Spell,,,[],['Burst'],Give an ally +0|+3 this round.,
 01NX020T3,Noxus,Draven,3,4,4,None,Unit,,Champion,"['01NX020T1', '01NX020T2', '01NX020']","['QuickStrike', 'Overwhelm']",Play or Strike: Create 2 Spinning Axe in hand.,
 01DE031,Demacia,Dawnspeakers,3,1,4,Epic,Unit,,,[],[],End of Round: Grant other allies +1|+1 if an ally died this round.,

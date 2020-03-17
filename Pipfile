@@ -7,6 +7,8 @@ verify_ssl = true
 flake8 = "*"
 setuptools = "*"
 pipenv-setup = "*"
+black = "*"
+v = {editable = true,version = "*"}
 
 [packages]
 pathlib = "*"
@@ -17,3 +19,6 @@ dbt = "*"
 
 [requires]
 python_version = "3"
+
+[pipenv]
+allow_prereleases = true

@@ -3,10 +3,9 @@ import json
 import pandas as pd
 import pathlib
 
-column_names = [
-    'code',
+column_names = ['code',
     'region',
-    'designation',
+    'card_name',
     'cost',
     'attack',
     'health',
