@@ -8,7 +8,9 @@ SELECT
    (SUM(CASE WHEN c.keywords LIKE '%' || k.keyword || '%' THEN 1 ELSE 0 END)::decimal / COUNT(*)::decimal)::decimal(4, 2) AS keyword_perc_of_total_cards
 FROM
     {{ ref('keywords') }} k
-        CROSS JOIN explorer.cards c
+        CROSS JOIN {{ ref('cards') }} c
 WHERE
     keyword <> ''
-GROUP BY 1, 2
+GROUP BY
+    k.keyword,
+    c.region
