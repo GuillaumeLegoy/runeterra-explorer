@@ -35,19 +35,3 @@ seeds:
   explorer:
     enabled: true
     quote_columns: true
-    cards:
-      # Override column types
-      column_types:
-        code: varchar
-        region: varchar
-        card_name: varchar
-        cost: int
-        attack: int
-        health: int
-        rarity: varchar
-        main_type: varchar
-        subtype: varchar
-        supertype: varchar
-        associated_cards: varchar
-        keywords: varchar
-        description: varchar
