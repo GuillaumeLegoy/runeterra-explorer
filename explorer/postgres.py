@@ -36,15 +36,12 @@ class Postgres:
     def execute_query(self, query: str, identifiers: dict = {}, parameters: dict = {}):
         with self._connection:
             with self._connection.cursor() as curs:
-                if not identifiers:
-                    curs.execute(sql.SQL(query))
-                else:
-                    curs.execute(
-                        sql.SQL(query).format(**self._get_sql_identifiers(identifiers)),
-                        parameters,
-                    )
+                curs.execute(
+                    sql.SQL(query).format(**self._get_sql_identifiers(identifiers)),
+                    parameters,
+                )
                 if curs.description:
-                    return curs.fetchall(), curs.description
+                    return curs.fetchall()
 
     def _create_connection(self):
         credentials = postgres_credentials(self._secret_name)
