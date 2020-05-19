@@ -1,5 +1,6 @@
 *.user.yml
 *.csv#
+*.csv
 
 #dbt
 *profiles.yml
