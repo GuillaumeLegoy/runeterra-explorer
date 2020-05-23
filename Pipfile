@@ -17,6 +17,8 @@ pandas = "*"
 src = {editable = true,path = "."}
 dbt = "*"
 lor-deckcodes = "*"
+scipy = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3"
