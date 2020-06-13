@@ -19,6 +19,7 @@ dbt = "*"
 lor-deckcodes = "*"
 scipy = "*"
 matplotlib = "*"
+numpy = "*"
 
 [requires]
 python_version = "3"
