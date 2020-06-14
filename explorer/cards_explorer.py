@@ -1,7 +1,6 @@
 from explorer.utils.path_util import ProjectPaths
 import json
 import pandas as pd
-import pathlib
 
 column_names = [
     "code",
