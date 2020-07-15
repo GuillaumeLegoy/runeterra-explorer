@@ -13,22 +13,10 @@ class PostgresCredentials:
     database: str
 
 
-def postgres_credentials(secret_name) -> PostgresCredentials:
-    with SecretManager(secret_name) as client:
-        secret = client.retrieve_secret_string()
-
-    postgres_credentials = PostgresCredentials(
-        username=secret["username"],
-        password=secret["password"],
-        host=secret["host"],
-        port=secret["port"],
-        database=secret["engine"],
-    )
-
-    return postgres_credentials
-
-
 class Postgres:
+    def __enter__(self):
+        return self
+
     def __init__(self, secret_name, region_name="us-east-1"):
         self._secret_name = secret_name
         self._connection = self._create_connection()
@@ -44,7 +32,7 @@ class Postgres:
                     return curs.fetchall()
 
     def _create_connection(self):
-        credentials = postgres_credentials(self._secret_name)
+        credentials = self._postgres_credentials()
 
         self._connection = psycopg2.connect(
             user=credentials.username,
@@ -59,11 +47,22 @@ class Postgres:
 
         return self._connection
 
+    def _postgres_credentials(self) -> PostgresCredentials:
+        with SecretManager(self._secret_name) as client:
+            secret = client.retrieve_secret_string()
+
+        postgres_credentials = PostgresCredentials(
+            username=secret["username"],
+            password=secret["password"],
+            host=secret["host"],
+            port=secret["port"],
+            database=secret["engine"],
+        )
+
+        return postgres_credentials
+
     def _get_sql_identifiers(self, identifiers: dict = {}) -> dict:
         return {name: sql.Identifier(value) for name, value in identifiers.items()}
-
-    def __enter__(self):
-        return self
 
     def __exit__(self, exception_type, exception_value, traceback) -> None:
         self._connection.close()

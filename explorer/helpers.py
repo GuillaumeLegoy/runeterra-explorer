@@ -2,8 +2,8 @@ import boto3
 from botocore.exceptions import ClientError
 from pathlib import Path
 from dataclasses import dataclass, field
+from contextlib import contextmanager
 import git
-import sys
 import json
 
 
@@ -20,14 +20,10 @@ class SecretManager:
             service_name="secretsmanager", region_name=self.region_name
         )
 
-    def retrieve_secret_string(self):
+    @contextmanager
+    def _boto_client_error_handler(self):
         try:
-            return json.loads(
-                self._create_boto_client().get_secret_value(SecretId=self.secret_name)[
-                    "SecretString"
-                ]
-            )
-
+            yield
         except ClientError as e:
             if e.response["Error"]["Code"] == "DecryptionFailureException":
                 raise e
@@ -40,14 +36,13 @@ class SecretManager:
             elif e.response["Error"]["Code"] == "ResourceNotFoundException":
                 raise e
 
-    def __enter__(self):
-        return self
-
-    def __exit__(self, exception_type, exception_value, traceback) -> None:
-        if exception_type:
-            sys.exit(print(exception_value))
-        else:
-            print("Credentials successfully retrieved.")
+    def retrieve_secret_string(self):
+        with self._boto_error_handler():
+            return json.loads(
+                self._create_boto_client().get_secret_value(SecretId=self.secret_name)[
+                    "SecretString"
+                ]
+            )
 
 
 def get_repository_root_path() -> Path:
