@@ -1,9 +1,7 @@
 import boto3
 from botocore.exceptions import ClientError
-from pathlib import Path
-from dataclasses import dataclass, field
 from contextlib import contextmanager
-from .logging import get_logger
+from explorer.logging import get_logger
 import json
 
 
