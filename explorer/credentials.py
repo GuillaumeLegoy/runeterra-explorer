@@ -29,29 +29,32 @@ class CredentialsManager:
                 try:
                     return func(*args, **kwargs)
                 except ClientError as e:
-                    if e.response["Error"]["Code"] == "DecryptionFailureException":
+                    error_code = e.response["Error"]["Code"]
+                    if error_code == "DecryptionFailureException":
                         logger.exception(
-                            f"Secrets Manager can't decrypt the protected secret text using the provided KMS key."
+                            f"Secrets Manager can't decrypt the protected secret "
+                            f"text using the provided KMS key."
                         )
                         raise e
 
-                    elif e.response["Error"]["Code"] == "InternalServiceErrorException":
+                    elif error_code == "InternalServiceErrorException":
                         logger.exception(f"An error occurred on the server side.")
                         raise e
 
-                    elif e.response["Error"]["Code"] == "InvalidParameterException":
+                    elif error_code == "InvalidParameterException":
                         logger.exception(
                             f"You provided an invalid value for a parameter."
                         )
                         raise e
 
-                    elif e.response["Error"]["Code"] == "InvalidRequestException":
+                    elif error_code == "InvalidRequestException":
                         logger.exception(
-                            f"You provided a parameter value that is not valid for the current state of the resource."
+                            f"You provided a parameter value that is not valid "
+                            f"for the current state of the resource."
                         )
                         raise e
 
-                    elif e.response["Error"]["Code"] == "ResourceNotFoundException":
+                    elif error_code == "ResourceNotFoundException":
                         logger.info(f"We can't find the resource that you asked for.")
                         raise e
 
