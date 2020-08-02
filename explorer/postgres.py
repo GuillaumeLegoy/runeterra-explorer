@@ -1,5 +1,6 @@
-from helpers import SecretManager
 from dataclasses import dataclass
+
+from helpers import SecretManager
 import psycopg2
 from psycopg2 import sql
 
