@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <input
   type="text"
   name="searchBar"
