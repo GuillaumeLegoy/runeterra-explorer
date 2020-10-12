@@ -11,7 +11,6 @@
     </div>
     <ul id="CardsList" />
   </div>
-  <div id="myData" />
   <script>
     const CardsList = document.getElementById("CardsList");
     const searchBar = document.getElementById("searchBar");
@@ -49,3 +48,6 @@
     loadCards();
   </script>
 </body>
+
+<!-- the default is loadCards which displays everything, else it goes to the event listener, which lower case the search, and then display 
+the filtered card which is a filter on the result of the search -->
